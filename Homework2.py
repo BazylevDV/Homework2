@@ -1,8 +1,8 @@
 homeworks=12# количество выполненных дз
 hours=1.5 # количество затраченных часов
 course="Python" # название курса
-All_time=(1.5/12) # время на одно задание
-print("""Курс:", course,",","всего задач :",homeworks,"," "затрачено часов:", hours,"," "среднее время выполнения",All_time ,"часа.")
+All_time= hours/homeworks  # время на одно задание
+print("Курс:", course,",","всего задач :",homeworks,"," "затрачено часов:", hours,"," "среднее время выполнения",All_time ,"часа.")
 
 # This is a sample Python script.
 
